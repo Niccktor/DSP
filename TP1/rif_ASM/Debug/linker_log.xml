@@ -1,10 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_log.xsl"?>
-<DOCUMENT gen_time='Mon May 05 11:26:24 2025
+<DOCUMENT gen_time='Mon May 05 11:31:01 2025
 '>
-<MSG id='029FA240' mid='li1141' type='Error' >
-<FILE><![CDATA[.\Linking\ADSP-21262_ASM.LDF]]></FILE>
-<FILE_LINE><![CDATA[165]]></FILE_LINE>
-<TEXT><![CDATA[No input files specified for the shared memory '.\Debug\NewSharedMemory.sm']]></TEXT>
+<MSG id='02650E00' mid='li1030' type='Error' >
+<TEXT><![CDATA[Can not open input file '.\Debug\riftest.doj'.]]></TEXT>
 </MSG>
 </DOCUMENT>

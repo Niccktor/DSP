@@ -18,7 +18,7 @@ initializes buffers and pointers. It also calls the RIF.ASM code.
 .EXTERN rif; /* étiquette définie dans un autre fichier */ 
 /*************************************************************************/
 .SEGMENT /PM segt_pmda;          /* les données accessibles par le bus PM */
-	.VAR coefs[TAPS] = "coeffs.dat";    /* coefficients du RIF stockés initialement dans un fichier texte */
+	.VAR coefs[TAPS] = "rifcoeffs.dat";    /* coefficients du RIF stockés initialement dans un fichier texte */
 .ENDSEG;
 /*************************************************************************/
 .SEGMENT /DM segt_dmda; 	/* les données accessibles par le bus DM */
