@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_map_ss1.xsl"?>
 <!DOCTYPE DOCUMENT SYSTEM "file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_map.dtd">
 <DOCUMENT>
-<LINKPROJECT guid='83b3add88e57e5b38' id='02626C98' name='p0' orig_file_name='.\Debug\rif_ASM.dxe' architecture='ADSP-21262' >
+<LINKPROJECT guid='d07c52c09e494a3f3' id='02686C98' name='p0' orig_file_name='.\Debug\rif_ASM.dxe' architecture='ADSP-21262' >
 <FILE_NAME><![CDATA[.\Debug\rif_ASM.dxe]]></FILE_NAME>
-<MEMORY id='02651DA8' name='seg_rth' start_address='0x80000' end_address='0x800ff' type='PM' qualifier='RAM' width='0x30' words_used='0x7' words_unused='0xf9' >
+<MEMORY id='026B1CD8' name='seg_rth' start_address='0x80000' end_address='0x800ff' type='PM' qualifier='RAM' width='0x30' words_used='0x7' words_unused='0xf9' >
 <OUTPUT_SECTIONS>
-<OUTPUT_SECTION name='seg_rth' id='02B30848' memory_id='02651DA8' type='SHT_PROGBITS' start_address='0x80000' word_size='0x7' word_size_unmapped='0x0' word_size_reserved='0x0' >
+<OUTPUT_SECTION name='seg_rth' id='02AF0898' memory_id='026B1CD8' type='SHT_PROGBITS' start_address='0x80000' word_size='0x7' word_size_unmapped='0x0' word_size_reserved='0x0' >
 <INPUT_SECTIONS>
-<INPUT_SECTION id='02A26AF0' name='seg_rth' start_address='0x80000' size='0x7' element_at='0x0' >
+<INPUT_SECTION id='029E71B0' name='seg_rth' start_address='0x80000' size='0x7' element_at='0x0' >
 <INPUT_FILE><![CDATA[.\Debug\riftest.doj]]></INPUT_FILE>
 <SYMBOL name='initial_setup' address='0x80000' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
 </INPUT_SECTION>
@@ -16,25 +16,25 @@
 </OUTPUT_SECTION>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651E28' name='seg_init' start_address='0x80100' end_address='0x801ff' type='PM' qualifier='RAM' width='0x30' words_used='0x0' words_unused='0x100' >
+<MEMORY id='026B1E48' name='seg_init' start_address='0x80100' end_address='0x801ff' type='PM' qualifier='RAM' width='0x30' words_used='0x0' words_unused='0x100' >
 <OUTPUT_SECTIONS>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651CF8' name='seg_int_code' start_address='0x80200' end_address='0x802ef' type='PM' qualifier='RAM' width='0x30' words_used='0x0' words_unused='0xf0' >
+<MEMORY id='026B1D48' name='seg_int_code' start_address='0x80200' end_address='0x802ef' type='PM' qualifier='RAM' width='0x30' words_used='0x0' words_unused='0xf0' >
 <OUTPUT_SECTIONS>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651DE8' name='seg_pmco' start_address='0x802f0' end_address='0x841ff' type='PM' qualifier='RAM' width='0x30' words_used='0x1f' words_unused='0x3ef1' >
+<MEMORY id='026B1DE8' name='seg_pmco' start_address='0x802f0' end_address='0x841ff' type='PM' qualifier='RAM' width='0x30' words_used='0x1f' words_unused='0x3ef1' >
 <OUTPUT_SECTIONS>
-<OUTPUT_SECTION name='seg_pmco' id='02B30A28' memory_id='02651DE8' type='SHT_PROGBITS' start_address='0x802f0' word_size='0x1f' word_size_unmapped='0x0' word_size_reserved='0x0' >
+<OUTPUT_SECTION name='seg_pmco' id='02AF0A28' memory_id='026B1DE8' type='SHT_PROGBITS' start_address='0x802f0' word_size='0x1f' word_size_unmapped='0x0' word_size_reserved='0x0' >
 <INPUT_SECTIONS>
-<INPUT_SECTION id='02A26B80' name='seg_pmco' start_address='0x802f0' size='0xa' element_at='0x0' >
+<INPUT_SECTION id='029E6D30' name='seg_pmco' start_address='0x802f0' size='0xa' element_at='0x0' >
 <INPUT_FILE><![CDATA[.\Debug\rif.doj]]></INPUT_FILE>
 <SYMBOL name='rif' address='0x802f0' size='0xa' binding='GLOBAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
 <SYMBOL name='macs' address='0x802f7' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
 <SYMBOL name='rif.END' address='0x802fa' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
 </INPUT_SECTION>
-<INPUT_SECTION id='02A26A60' name='seg_pmco' start_address='0x802fa' size='0x15' element_at='0x0' >
+<INPUT_SECTION id='029E6C10' name='seg_pmco' start_address='0x802fa' size='0x15' element_at='0x0' >
 <INPUT_FILE><![CDATA[.\Debug\riftest.doj]]></INPUT_FILE>
 <SYMBOL name='begin' address='0x802fa' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
 <SYMBOL name='filtering' address='0x8030a' size='0x0' binding='LOCAL'><DEMANGLED_NAME><![CDATA[]]></DEMANGLED_NAME></SYMBOL>
@@ -46,19 +46,19 @@
 </OUTPUT_SECTION>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651DB8' name='seg_pmda' start_address='0x86300' end_address='0x87fff' type='PM' qualifier='RAM' width='0x20' words_used='0x0' words_unused='0x1d00' >
+<MEMORY id='026B1E08' name='seg_pmda' start_address='0x86300' end_address='0x87fff' type='PM' qualifier='RAM' width='0x20' words_used='0x0' words_unused='0x1d00' >
 <OUTPUT_SECTIONS>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651D08' name='seg_dmda' start_address='0xc0000' end_address='0xc7fff' type='DM' qualifier='RAM' width='0x20' words_used='0x8000' words_unused='0x0' >
+<MEMORY id='026B1CE8' name='seg_dmda' start_address='0xc0000' end_address='0xc7fff' type='DM' qualifier='RAM' width='0x20' words_used='0x8000' words_unused='0x0' >
 <OUTPUT_SECTIONS>
-<OUTPUT_SECTION name='seg_dmda' id='02B30B68' memory_id='02651D08' type='SHT_PROGBITS' start_address='0xc0000' word_size='0x0' word_size_unmapped='0x0' word_size_reserved='0x8000' >
+<OUTPUT_SECTION name='seg_dmda' id='02AF0DE8' memory_id='026B1CE8' type='SHT_PROGBITS' start_address='0xc0000' word_size='0x0' word_size_unmapped='0x0' word_size_reserved='0x8000' >
 <INPUT_SECTIONS>
 </INPUT_SECTIONS>
 </OUTPUT_SECTION>
 </OUTPUT_SECTIONS>
 </MEMORY>
-<MEMORY id='02651E08' name='seg_sram' start_address='0x1000000' end_address='0x2ffffff' type='DM' qualifier='DMAONLY' width='0x8' words_used='0x0' words_unused='0x2000000' >
+<MEMORY id='026B1D68' name='seg_sram' start_address='0x1000000' end_address='0x2ffffff' type='DM' qualifier='DMAONLY' width='0x8' words_used='0x0' words_unused='0x2000000' >
 <OUTPUT_SECTIONS>
 </OUTPUT_SECTIONS>
 </MEMORY>

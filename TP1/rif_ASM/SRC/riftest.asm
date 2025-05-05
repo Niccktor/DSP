@@ -17,11 +17,11 @@ initializes buffers and pointers. It also calls the RIF.ASM code.
 
 .EXTERN rif; /* étiquette définie dans un autre fichier */ 
 /*************************************************************************/
-.SEGMENT /PM segt_pmda;          /* les données accessibles par le bus PM */
+.SEGMENT /PM seg_pmda;          /* les données accessibles par le bus PM */
 	.VAR coefs[TAPS] = "rifcoeffs.dat";    /* coefficients du RIF stockés initialement dans un fichier texte */
 .ENDSEG;
 /*************************************************************************/
-.SEGMENT /DM segt_dmda; 	/* les données accessibles par le bus DM */
+.SEGMENT /DM seg_dmda; 	/* les données accessibles par le bus DM */
 
 	/* buffer qui contient les 5 derniers échantillons d'entrée nécessaires au calcul de la réponse du filtre */
 	.VAR dline[TAPS];        

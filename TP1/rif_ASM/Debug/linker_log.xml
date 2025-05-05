@@ -1,8 +1,20 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_log.xsl"?>
-<DOCUMENT gen_time='Mon May 05 11:31:01 2025
+<DOCUMENT gen_time='Mon May 05 11:31:50 2025
 '>
-<MSG id='02650E00' mid='li1030' type='Error' >
-<TEXT><![CDATA[Can not open input file '.\Debug\riftest.doj'.]]></TEXT>
+<MSG id='02B2AAF8' mid='li2060' type='Warning' >
+<TEXT><![CDATA[The following input section(s) that contain program code
+        and/or data have not been placed into the executable for processor 'p0'
+        as there are no relevant commands specified in the LDF:
+
+        .\Debug\riftest.doj(segt_dmda)
+        .\Debug\riftest.doj(segt_pmda)]]></TEXT>
+</MSG>
+<MSG id='02637ED0' mid='li1060' type='Error' >
+<TEXT><![CDATA[The following symbols are referenced, but not mapped:
+        'coefs' referenced from .\Debug\riftest.doj(seg_pmco)
+        'outbuf' referenced from .\Debug\riftest.doj(seg_pmco)
+        'dline' referenced from .\Debug\riftest.doj(seg_pmco)
+        'inbuf' referenced from .\Debug\riftest.doj(seg_pmco)]]></TEXT>
 </MSG>
 </DOCUMENT>
