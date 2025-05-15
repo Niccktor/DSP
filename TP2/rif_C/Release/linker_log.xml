@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Wed May 07 11:58:20 2025
+'>
+<MSG id='02E90560' mid='li3201' type='Informational' suppressed=''>
+<TEXT><![CDATA[Successfully eliminated 2603 bytes in processor 'p0'
+]]></TEXT>
+<EXTENDED_INFO><![CDATA[Eliminated object (0x141,0x142) of size 5 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (_inbuf3, ._inbuf3.end) of size 1280 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (_SAMPLES3, ._SAMPLES3.end) of size 5 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (0x243,0x244) of size 5 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (0x283,0x284) of size 5 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (0x2c3,0x2c4) of size 5 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (_outbuf3, _outbuf3+0x100) of size 1280 bytes from '.\Release\rii.doj(seg_dmda)'
+Eliminated object (___lib_setup_runtime_heap, .___lib_setup_runtime_heap.end) of size 18 bytes from 'libc26x.dlb[set_c.doj](seg_pmco)'
+]]></EXTENDED_INFO>
+</MSG>
+</DOCUMENT>

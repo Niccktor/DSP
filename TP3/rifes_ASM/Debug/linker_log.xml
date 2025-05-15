@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Analog Devices/VisualDSP 5.1.2/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Thu May 15 16:24:33 2025
+'>
+<MSG id='02BF9828' mid='li1021' type='Error' >
+<TEXT><![CDATA[The following symbols referenced in processor 'p0' could not be resolved:
+        'main [_main]' referenced from '.\Debug\21262_IVT.doj']]></TEXT>
+</MSG>
+</DOCUMENT>
